@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Date | Website</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo_cover">
+          <img src="images/logo.png" class="logo" alt="logo" />
+        </div>
+
+        <div
+          class="navigation flex-md-grow-1 d-flex flex-row flex-wrap align-items-center justify-content-end justify-content-ld-center justify-content-lg-between"
+        >
+          <ul class="d-none d-md-flex menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About Us</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Page</a></li>
+            <li><a href="/">Contact Us</a></li>
+          </ul>
+          <div class="d-none d-lg-flex cta">
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+
+          <button type="button"  id="sidebarToggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Sidebar for mobile view -->
+<div class="sidebar" id="sidebar">
+  <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/">About Us</a></li>
+      <li><a href="/">Services</a></li>
+      <li><a href="/">Page</a></li>
+      <li><a href="/">Contact Us</a></li>
+  </ul>
+</div>
+
+
+    <!-- banner -->
+    <div class="banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5 my-5 my-md-0">
+            <h6 class="section_name">Welcome to Datera <span></span></h6>
+            <h1 class="heading">
+              Simple Way to <br />
+              <span>Find Your Love</span>
+            </h1>
+            <p class="my-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+            <div class="app_links d-flex flex-row align-items-center flex-wrap">
+              <img src="images/appstore.png" alt="appstore" />
+              <img
+                src="images/googleplay.png"
+                style="width: 150px"
+                alt="googleplay"
+              />
+            </div>
+          </div>
+          <div class="col-md-7 mt-2 my-md-0">
+            <div class="banner_image">
+              <img src="./images/banner-image.png" class="w-100" alt="banner" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <section id="about" class="about">
+      <div class="container d-flex align-items-center justify-content-center">
+        <div class="image_cover">
+          <img src="./images/couple-on-a-date.jpg" class="w-100" alt="about" />
+        </div>
+        <div class="about_right">
+          <div class="about_details">
+            <div id="w-85">
+              <h6 class="section_name">About Datera <span></span></h6>
+              <h1 class="my-3">
+                Love Can Happen <br />
+                Anywhere, Anytime
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <button class="btn btn-primary mt-3">Read More</button>
+            </div>
+          </div>
+          <div class="about_icons">
+            <div
+              class="icon_coverbox d-flex flex-column py-5 p-3 align-items-center"
+            >
+              <i class="fa-solid fa-cloud-arrow-down icon"></i>
+              <h2 class="my-2">105 K</h2>
+              <p>Download App</p>
+            </div>
+            <div
+              class="icon_coverbox d-flex flex-column py-5 p-3 align-items-center"
+            >
+              <i class="fa-solid fa-heart icon"></i>
+              <h2 class="my-2">90 %</h2>
+              <p>Successfull Relationship</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- partners -->
+    <section class="partners">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-3 col-md-4 col-sm-6 my-4 text-center">
+            <img src="./images/partner-one.png" alt="partner" />
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-4 text-center">
+            <img src="./images/partner-two.png" alt="partner" />
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-4 text-center">
+            <img src="./images/partner-three.png" alt="partner" />
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-4 text-center">
+            <img src="./images/partner-four.png" alt="partner" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <h6 class="section_name">Our Services <span></span></h6>
+            <h1 class="heading">
+              Enjoy Our
+              <br />
+              Special Features
+            </h1>
+            <p class="my-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus
+            </p>
+            <div class="d-none d-lg-flex cta">
+              <button class="btn btn-primary mt-3">Learn More</button>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row services_cards align-items-center">
+              <div class="col-sm-6">
+                <div
+                  class="row flex-column flex-wrap align-items-start justify-content-center"
+                >
+                  <div class="col mt-4">
+                    <div class="service_card">
+                      <i class="fa-solid fa-user icon"></i>
+                      <h4 class="mt-3">Profile Verification</h4>
+                      <p>
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col mt-4">
+                    <div class="service_card primary_card">
+                      <i class="fa-solid fa-shield icon"></i>
+                      <h4 class="mt-3">Profile Verification</h4>
+                      <p>
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col mt-4">
+                    <div class="service_card">
+                      <i class="fa-solid fa-snowflake icon"></i>
+                      <h4 class="mt-3">Profile Verification</h4>
+                      <p>
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div
+                  class="row flex-column flex-wrap align-items-start justify-content-center"
+                >
+                  <div class="col mt-4">
+                    <div class="service_card">
+                      <i class="fa-solid fa-comment icon"></i>
+                      <h4 class="mt-3">Profile Verification</h4>
+                      <p>
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col mt-4">
+                    <div class="service_card">
+                      <i class="fa-solid fa-person icon"></i>
+                      <h4 class="mt-3">Profile Verification</h4>
+                      <p>
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h6 class="section_name">FAQ <span></span></h6>
+            <h1 class="heading">
+              Frequently Asked <br />
+              Question
+            </h1>
+            <p class="my-3">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa.
+            </p>
+            <div class="d-none d-lg-flex cta">
+              <button class="btn btn-primary mt-3">See All</button>
+            </div>
+          </div>
+          <div class="mt-5 mt-md-0 col-md-6">
+            <div class="faq_accrordion_cover">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne"
+                    >
+                      How do i varify my profile?
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseOne"
+                    class="accordion-collapse collapse show"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                      pellentesque eu, pretium quis, sem. Nulla consequat massa
+                      quis enim. Donec pede justo, fringilla vel, aliquet nec,
+                      vulputate eget, arcu.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      How can i match up with someone?
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseTwo"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                      pellentesque eu, pretium quis, sem. Nulla consequat massa
+                      quis enim. Donec pede justo, fringilla vel, aliquet nec,
+                      vulputate eget, arcu.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseThree"
+                    >
+                      How can i have premium account?
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseThree"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                      pellentesque eu, pretium quis, sem. Nulla consequat massa
+                      quis enim. Donec pede justo, fringilla vel, aliquet nec,
+                      vulputate eget, arcu.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h6 class="section_name">Special Price <span></span></h6>
+            <h3 class="heading">Subscribe to Get Premium Features</h3>
+            <p class="my-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4 justify-content-center align-items-stretch">
+          <div class="col-lg-4 col-md-6 mt-4">
+            <div class="pricing_table">
+              <h5 class="text-center">Basic</h5>
+              <hr class="my-3" style="width: 200px" />
+              <span class="price text-center d-block">
+                <span>$10</span>
+                <sub>/mo</sub>
+              </span>
+              <p class="mb-4 text-center">Billed as $120 per year</p>
+              <hr class="my-3" style="width: 200px" />
+              <p class="color-red text-center">Unlock Feature :</p>
+              <ul
+                class="d-flex flex-column align-items-center justify-content-center"
+              >
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; 200 likes a day
+                </li>
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; Rewind last
+                  swipe
+                </li>
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; 5 super likes a
+                  day
+                </li>
+              </ul>
+              <div class="cta w-100 mt-5 text-center">
+                <button class="btn btn-primary">Purchase Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4">
+            <div class="pricing_table primary_card">
+              <h5 class="text-center">Standard</h5>
+              <hr class="my-3" style="width: 200px" />
+              <span class="price text-center d-block">
+                <span>$10</span>
+                <sub>/mo</sub>
+              </span>
+              <p class="mb-4 text-center">Billed as $240 per year</p>
+              <hr class="my-3" style="width: 200px" />
+              <p class="color-red text-center">Unlock Feature :</p>
+
+              <ul
+                class="d-flex flex-column align-items-center justify-content-center"
+              >
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; 500 likes a day
+                </li>
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; Rewind last
+                  swipe
+                </li>
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; 20 super likes a
+                  day
+                </li>
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; Swipe around the
+                  world
+                </li>
+              </ul>
+              <div class="cta w-100 mt-5 text-center">
+                <button class="btn btn-primary">Purchase Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4">
+            <div class="pricing_table">
+              <h5 class="text-center">Premium</h5>
+              <hr class="my-3" style="width: 200px" />
+              <span class="price text-center d-block">
+                <span>$10</span>
+                <sub>/mo</sub>
+              </span>
+              <p class="mb-4 text-center">Billed as $420 per year</p>
+              <hr class="my-3" style="width: 200px" />
+              <p class="color-red text-center">Unlock Feature :</p>
+
+              <ul
+                class="d-flex flex-column align-items-center justify-content-center"
+              >
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; Unlimited likes
+                </li>
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; Rewind last
+                  swipe
+                </li>
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; 50 super likes a
+                  day
+                </li>
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; Swipe around the
+                  world
+                </li>
+                <li class="d-flex align-items-center mt-2">
+                  <i class="fa-solid fa-check icon"></i> &nbsp; 1 Boost each a
+                  month
+                </li>
+              </ul>
+              <div class="cta w-100 mt-5 text-center">
+                <button class="btn btn-primary">Purchase Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news" id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h6 class="section_name">News <span></span></h6>
+            <h3 class="heading">News & Articles</h3>
+          </div>
+        </div>
+        <div class="row mt-4 justify-content-center align-items-stretch">
+          <div class="col-md-6 mt-4">
+            <div class="post_cover py-3">
+              <div class="post_image_cover">
+                <img
+                  src="images/status-in-a-relationship-.jpg"
+                  class="post_image"
+                  alt="post"
+                />
+              </div>
+              <a href="/" class="news_heading"
+                >Keep Good Relations with Datera</a
+              >
+              <div
+                class="publish_details mt-1 d-flex align-items-center justify-content-start"
+              >
+                <p
+                  class="author d-flex align-items-center justify-content-start me-3"
+                >
+                  <i class="fa-solid fa-user me-2"></i>
+                  <a href="">by John Doe</a>
+                </p>
+                <p class="date d-flex align-items-center justify-content-start">
+                  <i class="fa-solid fa-clock me-2"></i>
+                  <span>September 24, 2021</span>
+                </p>
+              </div>
+              <p class="mt-2">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                penatibus et magnis dis parturient montes
+              </p>
+              <button class="btn btn-primary mt-3">Read More</button>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="post_cover py-3">
+              <div class="post_image_cover">
+                <img
+                  src="images/status-in-a-relationship-.jpg"
+                  class="post_image"
+                  alt="post"
+                />
+              </div>
+              <a href="/" class="news_heading"
+                >Keep Good Relations with Datera</a
+              >
+              <div
+                class="publish_details mt-1 d-flex align-items-center justify-content-start"
+              >
+                <p
+                  class="author d-flex align-items-center justify-content-start me-3"
+                >
+                  <i class="fa-solid fa-user me-2"></i>
+                  <a href="">by John Doe</a>
+                </p>
+                <p class="date d-flex align-items-center justify-content-start">
+                  <i class="fa-solid fa-clock me-2"></i>
+                  <span>September 24, 2021</span>
+                </p>
+              </div>
+              <p class="mt-2">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                penatibus et magnis dis parturient montes
+              </p>
+              <button class="btn btn-primary mt-3">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news_latter container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h6 class="section_name">Newsletter <span></span></h6>
+          <h3 class="heading">Keep Update About Us</h3>
+          <p class="my-3">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+          <div class="input_cover">
+            <input
+              type="email"
+              class="email"
+              id="email"
+              placeholder="Your Email"
+            />
+            <button type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer_cover pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="px-4 col-6">
+            <div class="footer_logo">
+              <img src="images/logo.png" alt="logo" />
+            </div>
+            <p class="text-white mt-3 mb-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+              doloribus culpa nam est eum quo consectetur, eligendi ab sit
+              earum. Maxime sapiente ipsum hic eaque pariatur repellendus
+              distinctio blanditiis illo!
+            </p>
+          </div>
+          <div class="px-4 col-xl-2 col-lg-3 col-md col-6">
+            <h5 class="text-white fw-bold mb-4">Product</h5>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Case studies</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Updates</a></li>
+            </ul>
+          </div>
+          <div class="px-4 col-xl-2 col-lg-3 col-md col-6 mt-5 mt-md-0">
+            <h5 class="text-white fw-bold mb-4">Company</h5>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Culture</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="px-4 col-xl-2 col-lg-3 col-md col-6 mt-5 mt-md-0">
+            <h5 class="text-white fw-bold mb-4">Support</h5>
+            <ul>
+              <li><a href="#">Getting started</a></li>
+              <li><a href="#">Help center</a></li>
+              <li><a href="#">Server status</a></li>
+              <li><a href="#">Report a bug</a></li>
+              <li><a href="#">Chat support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-5 align-items-center justify-content-between">
+          <div class="col">
+            <p class="text-white">Code by Hamza Khalid</p>
+          </div>
+          <div class="col">
+            <p class="text-white text-end">Copyright © 2024. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
+      integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        const header = document.getElementById("header");
+        if (window.scrollY >= 100) {
+          header.style.backgroundColor = "white";
+        } else {
+          header.style.backgroundColor = "transparent";
+        }
+      });
+
+
+      document.addEventListener("DOMContentLoaded", function () {
+    const sidebarToggle = document.getElementById("sidebarToggle");
+    const sidebar = document.getElementById("sidebar");
+
+    sidebarToggle.addEventListener("click", function () {
+        sidebar.classList.toggle("sidebar-open");
+    });
+});
+      
+    </script>
+  </body>
+</html>
